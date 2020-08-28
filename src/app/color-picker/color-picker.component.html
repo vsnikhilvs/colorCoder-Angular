@@ -1,0 +1,16 @@
+<div class="mainDiv">
+  <div class="leftDiv">
+    <div class=color-wrapper>
+      <app-color-palette [hue]="hue" (color)="color = $event"></app-color-palette>
+      <app-color-slider (color)="hue=$event" style="margin-left:5px"></app-color-slider>
+    </div>
+  </div>
+  <div class="rightDiv" [ngStyle]="{'background-color': color || '#6c6c6c'}">    
+  </div>
+</div>
+<div class="input-wrapper">
+  <span class="text">RGBA code : <strong>{{color}}</strong></span>
+</div>
+<div class="input-wrapper">
+  <span class="text">HEX code : <strong>{{hexColor}}</strong></span>
+</div>

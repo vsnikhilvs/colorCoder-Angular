@@ -1,0 +1,8 @@
+.color-palette:hover {
+  cursor: pointer;
+}
+.color-palette {
+  width: 250;
+  height: 450;
+  display: block;
+}

@@ -1,0 +1,8 @@
+.color-slider:hover {
+  cursor: s-resize;
+}
+.color-slider {
+  width: 50;
+  height: 450;
+  display: block;
+}
